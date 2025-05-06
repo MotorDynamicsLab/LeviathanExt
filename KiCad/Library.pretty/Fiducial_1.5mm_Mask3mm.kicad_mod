@@ -1,0 +1,114 @@
+(footprint "Fiducial_1.5mm_Mask3mm"
+	(version 20240108)
+	(generator "pcbnew")
+	(generator_version "8.0")
+	(layer "F.Cu")
+	(descr "Circular Fiducial, 1.5mm bare copper, 3mm soldermask opening")
+	(tags "fiducial")
+	(property "Reference" "REF**"
+		(at 0 2.4 0)
+		(unlocked yes)
+		(layer "F.SilkS")
+		(hide yes)
+		(uuid "ced3270a-cbc6-4677-b7fc-a57e60c11761")
+		(effects
+			(font
+				(size 0.7 0.7)
+				(thickness 0.1)
+			)
+		)
+	)
+	(property "Value" "Fiducial"
+		(at 0 2.6035 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(uuid "5e2a6f65-f0cd-498d-83bd-c26743b0605b")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Footprint" "Fiducial:Fiducial_1.5mm_Mask3mm"
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "5c7a6462-8a17-41fd-83f2-2bf309544146")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "7eda4a6a-cb00-463e-9e2b-1fa55468b040")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "a3564424-1ad7-420f-83e6-886b0c4f041f")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr smd exclude_from_bom)
+	(fp_circle
+		(center 0 0)
+		(end 1.75 0)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(fill none)
+		(layer "F.CrtYd")
+		(uuid "b37d37b7-d010-4de8-937b-0634b745c525")
+	)
+	(fp_circle
+		(center 0 0)
+		(end 1.5 0)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(fill none)
+		(layer "F.Fab")
+		(uuid "e717cf8a-1a8a-4adb-8730-9a67932ca966")
+	)
+	(fp_text user "${REFERENCE}"
+		(at 0 0 0)
+		(layer "F.Fab")
+		(uuid "77307cca-37f3-4ca8-b95f-e0d6290973b1")
+		(effects
+			(font
+				(size 0.4 0.4)
+				(thickness 0.06)
+			)
+		)
+	)
+	(pad "" smd circle
+		(at 0 0)
+		(size 1.5 1.5)
+		(layers "F.Cu" "F.Mask")
+		(solder_mask_margin 0.75)
+		(clearance 0.75)
+		(uuid "3c6f8e20-2aa1-4704-96c8-7d56fed763f5")
+	)
+)

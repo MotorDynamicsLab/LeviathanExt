@@ -1,0 +1,132 @@
+(footprint "M2_Heatsink_55x22x3"
+	(version 20240108)
+	(generator "pcbnew")
+	(generator_version "8.0")
+	(layer "F.Cu")
+	(property "Reference" "REF**"
+		(at 0 11.7 180)
+		(unlocked yes)
+		(layer "F.SilkS")
+		(uuid "fa24ccb9-e70a-403a-b260-143981dd2364")
+		(effects
+			(font
+				(size 0.7 0.7)
+				(thickness 0.1)
+			)
+		)
+	)
+	(property "Value" "Heatsink"
+		(at 0 1 180)
+		(unlocked yes)
+		(layer "F.Fab")
+		(uuid "f67f63c5-658a-4589-82ec-0ffc516acb22")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Footprint" "Heatsink:M2_Heatsink_55x22x3"
+		(at 0 0 180)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "65e52533-b48c-4dc9-9d04-c38628b7f851")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 180)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "71de7551-71bf-45c1-8d56-b8ba9c96f25b")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" "Heatsink"
+		(at 0 0 180)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "0ab153e8-ab8d-4635-90c6-d25020df64e5")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(fp_line
+		(start 27.5 11)
+		(end -27.5 11)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "f65a6896-212a-436d-83b0-8382227fff51")
+	)
+	(fp_line
+		(start 27.5 -11)
+		(end 27.5 11)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "37379ac6-78f4-4b5b-b4c4-7e12ffc72113")
+	)
+	(fp_line
+		(start -27.5 11)
+		(end -27.5 -11)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "cec84221-e599-43c2-ae89-fae71ed60f1a")
+	)
+	(fp_line
+		(start -27.5 -11)
+		(end 27.5 -11)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "94a35534-a8d0-4216-a697-83ce23534615")
+	)
+	(fp_text user "${REFERENCE}"
+		(at 0 2.5 180)
+		(unlocked yes)
+		(layer "F.Fab")
+		(uuid "65987a44-ea91-480a-81e6-d738a1f2df28")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(model "${KICAD8_3DMODEL_DIR}/Heatsink.3dshapes/Heatsink_55x22x3mm.step"
+		(offset
+			(xyz -35 0 0.2)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz 0 0 0)
+		)
+	)
+)

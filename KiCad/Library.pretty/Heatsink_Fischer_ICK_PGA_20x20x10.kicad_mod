@@ -1,0 +1,131 @@
+(footprint "Heatsink_Fischer_ICK_PGA_20x20x10"
+	(version 20240108)
+	(generator "pcbnew")
+	(generator_version "8.0")
+	(layer "F.Cu")
+	(property "Reference" "REF**"
+		(at 0 -11 0)
+		(unlocked yes)
+		(layer "F.SilkS")
+		(hide yes)
+		(uuid "05515824-267a-42e6-96b7-ebbe2e2c5209")
+		(effects
+			(font
+				(size 0.7 0.7)
+				(thickness 0.1)
+			)
+		)
+	)
+	(property "Value" "Heatsink"
+		(at 0 1 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(uuid "41b5c0a6-1cdf-4476-9859-01c72e253a34")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Footprint" "Heatsink:Heatsink_Fischer_ICK_PGA_20x20x10"
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "fb004898-7b2c-4938-98d4-45071ec6d6c2")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "670d32d9-c670-4b49-8450-080d08d54060")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "e97b816c-8112-4a4a-8874-6e55e8ef3b1c")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "exclude_from_bom" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "a1632107-6d0a-410d-ae23-8bf8a8e19d01")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr exclude_from_pos_files exclude_from_bom)
+	(fp_line
+		(start -10 -10)
+		(end 10 -10)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "6de6499e-e9a2-4446-a439-86facc79379c")
+	)
+	(fp_line
+		(start -10 10)
+		(end -10 -10)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "c020c2a5-fdb1-4d7e-b500-bf0a627a7659")
+	)
+	(fp_line
+		(start 10 -10)
+		(end 10 10)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "c2802f3a-63e8-4954-9170-758e29ebd435")
+	)
+	(fp_line
+		(start 10 10)
+		(end -10 10)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "ba00c64e-8c4f-4baa-9cb9-42b5de3d5c10")
+	)
+	(model "${KIPRJMOD}/packages3D/Heatsink_20x20x10mm.step"
+		(offset
+			(xyz -10 0 1)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz 0 0 0)
+		)
+	)
+)

@@ -1,0 +1,187 @@
+(footprint "MagneticBuzzer_PUI_AT-0927-TT-6-R"
+	(version 20240108)
+	(generator "pcbnew")
+	(generator_version "8.0")
+	(layer "F.Cu")
+	(descr "Buzzer Magnetic 9mm AT-0927-TT-6-R, http://www.puiaudio.com/pdf/AT-0927-TT-6-R.pdf")
+	(tags "Buzzer Magnetic 9mm AT-0927-TT-6-R")
+	(property "Reference" "REF**"
+		(at -3.3 0 90)
+		(layer "F.SilkS")
+		(uuid "b9aaa14f-e0a7-4600-a963-6a354bf9ae5a")
+		(effects
+			(font
+				(size 0.7 0.7)
+				(thickness 0.1)
+			)
+		)
+	)
+	(property "Value" "QMB-09B-03"
+		(at 2 7 0)
+		(layer "F.Fab")
+		(uuid "24623bdc-76a9-4955-a6b0-ea6494a20b32")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Footprint" "Buzzer_Beeper:MagneticBuzzer_PUI_AT-0927-TT-6-R"
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "87a16aa5-b130-4514-a00a-e7b3bc590555")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "041ea29b-4abb-4424-a0f8-23bf82a1d22e")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" "Buzzer, polarized"
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "7b650e29-7bf7-4236-af71-395a5156ec71")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "LCSC" "C96256"
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "4b7d049b-0d96-4b40-a6aa-bb00ef8a3fd8")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr through_hole)
+	(fp_circle
+		(center 2 0)
+		(end 6.62 0)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(fill none)
+		(layer "F.SilkS")
+		(uuid "2f9fb6bc-0843-4ce0-94d2-95282e474997")
+	)
+	(fp_circle
+		(center 2 0)
+		(end 6.75 0)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(fill none)
+		(layer "F.CrtYd")
+		(uuid "c5644e73-6b6c-41e5-91de-5d535d508439")
+	)
+	(fp_circle
+		(center 2 0)
+		(end 6.5 0)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(fill none)
+		(layer "F.Fab")
+		(uuid "6506cfec-0e8e-4f0b-855a-d00bfc4a0ef2")
+	)
+	(fp_text user "+"
+		(at -1.5 -0.1 0)
+		(layer "F.SilkS")
+		(uuid "4146cfe1-297d-4e87-94ed-7e5eb97b52d1")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(fp_text user "+"
+		(at -1.5 -0.1 0)
+		(layer "F.Fab")
+		(uuid "069782eb-7074-48ef-8f86-92cf4cfb4e6f")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(fp_text user "${REFERENCE}"
+		(at 2 2 0)
+		(layer "F.Fab")
+		(uuid "5aad2eba-29e4-432a-a99c-74844f636f18")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(pad "1" thru_hole rect
+		(at 0 0)
+		(size 1.6 1.6)
+		(drill 0.9)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "602e59e7-f53a-497d-b92e-441330cf3355")
+	)
+	(pad "2" thru_hole circle
+		(at 4 0)
+		(size 1.6 1.6)
+		(drill 0.9)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "ea4fc9b3-7d16-4a2e-8fd4-48de4a79e399")
+	)
+	(model "${KICAD8_3DMODEL_DIR}/Buzzer_Beeper.3dshapes/MagneticBuzzer_PUI_AT-0927-TT-6-R.wrl"
+		(offset
+			(xyz 0 0 0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz 0 0 0)
+		)
+	)
+	(model "${KICAD8_3DMODEL_DIR}/Buzzer_Beeper.3dshapes/Same_Sky_CMT-0904-83T.step"
+		(offset
+			(xyz 2 0 2.3)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz -90 0 0)
+		)
+	)
+)
